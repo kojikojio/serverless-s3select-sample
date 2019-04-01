@@ -1,0 +1,20 @@
+{
+  "name": "serverless-s3select-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "tsc -p tsconfig.json && serverless deploy"
+  },
+  "dependencies": {
+    "s3-upload-stream": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.23",
+    "@types/node": "^11.12.1",
+    "@types/s3-upload-stream": "^1.0.2",
+    "aws-sdk": "^2.431.0",
+    "typescript": "^3.3.4000"
+  }
+}
